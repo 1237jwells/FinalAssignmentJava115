@@ -9,9 +9,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-
-//hmmmmmmmm
-//yikes lol
 public class Main extends Application implements EventHandler<ActionEvent> {
     @Override
     public void start(Stage stage) throws Exception{

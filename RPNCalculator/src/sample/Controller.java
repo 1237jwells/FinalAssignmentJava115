@@ -1,4 +1,5 @@
 package sample;
+import java.io.*;
 import java.lang.Double;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -13,12 +14,13 @@ import java.util.ResourceBundle;
 
 public class Controller extends Application implements Initializable {
     public theStack stack;//Stack variable
+    private final String FILE_PATH;
     public String number1 = "";//String of numbers X
-    public String number2 = "";//String of numbers Y
-    public boolean Start = true;// if start is true then numbers X, if start is false then numbers Y
-    public Double result1;//numbers X in Double form
-    public Double result2;// numbers Y in Double form
-    public Double result3;// numbers X,Y & Operator in Double form
+    //   public String number2 = "";//String of numbers Y
+//    public boolean Start = true;// if start is true then numbers X, if start is false then numbers Y
+//    public Double result1;//numbers X in Double form
+//    public Double result2;// numbers Y in Double form
+//    public Double result3;// numbers X,Y & Operator in Double form
 
     //Button ID
     @FXML
@@ -43,29 +45,18 @@ public class Controller extends Application implements Initializable {
     Button Point;
 
     //Open New Stack
-    public Controller() { stack = new theStack(); }
-//    public String DoubleToString(Double x){
-//        String result4 = String.valueOf(result3);
-//        return result4;
-//
-//    }
-//
-//    private void Display(String result4) {
-//        Display(result4);
-//    }
-//
-    //action used for Number1 or X push and convert to Double
+    public Controller() {
+        stack = new theStack();
+        FILE_PATH = "RPNCalculatorStorage.txt";
+    }
+
     public void actionEnter(ActionEvent event) {
         stack.push(number1);
         System.out.println("Stack size: " + stack.getSize());
-
-        //System.out.println(result1); in this case, result1 was never instantiated in this class (but in the other class it is), hence the null. this print line is not needed.
+        System.out.println(stack.peek());
         Display.clear();
-
-        //Start switches...Switching Number1 X to Number2 Y
-//        Start = false;
         number1 = "";
-    }//i'm baaaaaaaaaaack
+    }
 
     //Operators +-*/
     @FXML
@@ -83,28 +74,8 @@ public class Controller extends Application implements Initializable {
         Double result = Double.valueOf(number1) + newNumber; //I think this line will generate an error. right here.
         System.out.println("Result: " + result);
         Display.setText(String.valueOf(stack.push(String.valueOf(result))));
-        //there are sooo many comments, brother masterson would be so proud lol
-
-        //huhhh???
-        ///that's a quick thought
-
         System.out.println(stack.getSize());
-        //System.out.println(stack.);
         System.out.println(stack.pop());
-        // So i
-        //if you look at the pop() method, you will see that it it takes the top level of the stack right?
-//        stack.push(number1);//huhah
-//
-//
-//
-//
-//        //result3 = result1 + result2; //null poiner exception right here. which one of these is not initialized? result 2? yup
-//        System.out.println(result3);
-//        //Start switches...Switching Number2 Y to Number1 X
-//        Start = true;
-//        //turns Strings back to Null maybe?
-//        number1 = "";
-//        number2 = "";
     }
     @FXML
     public void actionMinus(javafx.event.ActionEvent event) throws IOException {
@@ -114,15 +85,6 @@ public class Controller extends Application implements Initializable {
         Double result = newNumber - Double.valueOf(number1); //I think this line will generate an error. right here.
         System.out.println("Result: " + result);
         Display.setText(String.valueOf(stack.push(String.valueOf(result))));
-//        if (event.getSource() == Minus) {
-//            stack.push(number2);
-//            result3 = result1-result2;
-//            System.out.println(result3);
-//            //Start switches...Switching Number2 Y to Number1 X
-//            Start = true;
-//            number1 = "";
-//            number2 = "";
-//        }
     }
     @FXML
     public void actionMultiply(javafx.event.ActionEvent event) throws IOException {
@@ -132,17 +94,8 @@ public class Controller extends Application implements Initializable {
         Double result = Double.valueOf(number1) * newNumber; //I think this line will generate an error. right here.
         System.out.println("Result: " + result);
         Display.setText(String.valueOf(stack.push(String.valueOf(result))));
-//        if (event.getSource() == Multiply) {
-//            stack.push(number2);
-//            result3 = result1*result2;
-//            System.out.println(result3);
-//            //Start switches...Switching Number2 Y to Number1 X
-//            Start = true;
-//            number1 = "";
-//            number2 = "";
-//        }
-    }
 
+    }
     @FXML
     public void actionDivide(javafx.event.ActionEvent event) throws IOException {
         Double newNumber = stack.pop();
@@ -151,38 +104,24 @@ public class Controller extends Application implements Initializable {
         Double result = newNumber / Double.valueOf(number1); //I think this line will generate an error. right here.
         System.out.println("Result: " + result);
         Display.setText(String.valueOf(stack.push(String.valueOf(result))));
-//        if (event.getSource() == Divide) {
-//            stack.push(number2);
-//            result3 = result1/result2;
-//            System.out.println(result3);
-//            //Start switches...Switching Number2 Y to Number1 X
-//            Start = true;
-//            number1 = "";
-//            number2 = "";
-//        }
+
     }
-// Numbers0-9 If start= true then button = number1,.... Else start= false then button = number2;
+
+    // Numbers0-9 If start= true then button = number1,.... Else start= false then button = number2;
+    @FXML
     public void actionOne(javafx.event.ActionEvent event){
-        if (Start = true){ //Start = true or is it Start == true?oooo good question is it bad if i move my mouse as well. kind of yes lol. but go ahead if you need took
+        if (event.getSource() == One) {
             Display.setText(Display.getText() + "1");
-            //System.out.println(event.getSource());
-            number1 = number1 + "1";
-        }
+            number1 = number1+"1"; }
         else{
-            number2 = number2 + "1";
-            System.out.println(number2);
+            System.out.println("Error");
         }
     }
     @FXML
     public void actionTwo(javafx.event.ActionEvent event) throws IOException{
         if (event.getSource() == Two) {
-            if (Start = true){
             Display.setText(Display.getText() + "2");
             number1 = number1+"2"; }
-            else{
-                number2 = number2 + "2";
-            }
-        }
         else{
             System.out.println("Error");
         }
@@ -190,14 +129,8 @@ public class Controller extends Application implements Initializable {
     @FXML
     public void actionThree(javafx.event.ActionEvent event) throws IOException {
         if (event.getSource() == Three) {
-            if (Start = true) {
-                Display.setText(Display.getText() + "3");
-                number1 = number1 + "3";
-            } else {
-                number2 = number2 + "3";
-                System.out.println(number2);
-            }
-        }
+            Display.setText(Display.getText() + "3");
+            number1 = number1+"3"; }
         else{
             System.out.println("Error");
         }
@@ -205,39 +138,26 @@ public class Controller extends Application implements Initializable {
     @FXML
     public void actionFour(javafx.event.ActionEvent event) throws IOException{
         if (event.getSource() == Four) {
-            if (Start = true){
-                Display.setText(Display.getText() + "4");
-                number1 = number1+"4"; }
-            else {
-                number2 = number2 + "4";
-                System.out.println(number2);
-            }
-        }}
+            Display.setText(Display.getText() + "4");
+            number1 = number1+"4"; }
+        else{
+            System.out.println("Error");
+        }
+    }
     @FXML
     public void actionFive(javafx.event.ActionEvent event) throws IOException {
         if (event.getSource() == Five) {
-            if (Start = true) {
-                Display.setText(Display.getText() + "5");
-                number1 = number1 + "5";
-            } else {
-                number2 = number2 + "5";
-                System.out.println(number2);
-            } }
-         else{
-                System.out.println("Error");
-            }
+            Display.setText(Display.getText() + "5");
+            number1 = number1+"5"; }
+        else{
+            System.out.println("Error");
         }
+    }
     @FXML
     public void actionSix(javafx.event.ActionEvent event) throws IOException {
         if (event.getSource() == Six) {
-            if (Start = true) {
-                Display.setText(Display.getText() + "6");
-                number1 = number1 + "6";
-            } else {
-                number2 = number2 + "6";
-                System.out.println(number2);
-
-            } }
+            Display.setText(Display.getText() + "6");
+            number1 = number1+"6"; }
         else{
             System.out.println("Error");
         }
@@ -245,76 +165,81 @@ public class Controller extends Application implements Initializable {
     @FXML
     public void actionSeven(javafx.event.ActionEvent event) throws IOException {
         if (event.getSource() == Seven) {
-            if (Start = true){
             Display.setText(Display.getText() + "7");
             number1 = number1+"7"; }
-        else { number2 = number2 + "7";
-        System.out.println(number2);
-            }}
-    else {
+        else{
             System.out.println("Error");
-        }}
+        }
+    }
     @FXML
     public void actionEight(javafx.event.ActionEvent event) throws IOException{
         if (event.getSource() == Eight) {
-            if (Start = true){
             Display.setText(Display.getText() + "8");
             number1 = number1+"8"; }
-            else{
-                number2 = number2 + "8";
-                System.out.println(number2);
-            }}
-        else {
+        else{
             System.out.println("Error");
-        }}
+        }
+    }
     @FXML
     public void actionNine(javafx.event.ActionEvent event) throws IOException {
         if (event.getSource() == Nine) {
-            if (Start = true){
             Display.setText(Display.getText() + "9");
             number1 = number1+"9"; }
-            else{
-                number2 = number2 + "9";
-                System.out.println(number2);
-            }
-        }
-        else {
+        else{
             System.out.println("Error");
-        }}
+        }
+    }
     @FXML
     public void actionZero(javafx.event.ActionEvent event) throws IOException{
         if (event.getSource() == Zero) {
-            if (Start = true){
             Display.setText(Display.getText() + "0");
-            number1 = number1+"0";
-            }
-            else{
-                number2 = number2 + "0";
-                System.out.println(number2);
-            }
-        }
-        else {
+            number1 = number1+"0"; }
+        else{
             System.out.println("Error");
-        }}
-    //---->Functions not done yet
+        }
+    }
     @FXML
     public void actionStore(javafx.event.ActionEvent event) throws IOException {
-        if (event.getSource() == Store) {
-            Display.setText(Display.getText() + "RS");
-
-            //stack.store();
-            number2 ="";}}
+//        try (Writer writer = new BufferedWriter(new OutputStreamWriter(
+//                new FileOutputStream(FILE_PATH), "utf-8"))){
+//            writer.write(String.valueOf(stack.peek()));
+//            writer.close();
+//        }catch(IOException e) {
+//            e.printStackTrace();
+//            //stack.store()
+       }
     @FXML
     public void actionRecall(javafx.event.ActionEvent event) throws IOException {
-        if (event.getSource() == Recall) {
-            Display.setText(Display.getText() + "RS");
-            //stack.store();
-            number2 ="";}}
+//        try {
+//            BufferedReader bufferedReader = new BufferedReader(new FileReader(FILE_PATH));
+//            String line = bufferedReader.readLine();
+//            String FILE_PATHZ).setText(line);
+//            bufferedReader.close();
+//
+//        } catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+    }
     @FXML
     public void actionPoint(javafx.event.ActionEvent event) throws IOException {
          if (event.getSource() == Point) {
-            Display.setText(Display.getText() + "."); } }
-    //<---Functions not done yet
+            Display.setText(Display.getText() + ".");
+            number1 = number1+"."; }
+        else{
+        System.out.println("Error");
+    }
+}
+    @FXML
+    public void actionClear(javafx.event.ActionEvent event) throws IOException {
+        {stack.clear();
+            Display.clear();
+            number1 = "";
+        }
+
+    }
+
     @Override
     public void setStack(theStack stack) {
         this.stack = stack; }

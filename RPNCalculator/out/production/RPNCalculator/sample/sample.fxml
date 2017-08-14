@@ -59,8 +59,9 @@
 
 
       <Button fx:id="Store" mnemonicParsing="false" onAction="#actionStore" prefHeight="100.0" prefWidth="100.0" text="RS" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-       <Button fx:id="Recall" mnemonicParsing="false" onAction="#actionRecall" prefHeight="100.0" prefWidth="100.0" text="RC" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-       <Button fx:id="Enter" mnemonicParsing="false" onAction="#actionEnter" prefHeight="100.0" prefWidth="100.0" text="Enter" GridPane.columnIndex="3" GridPane.columnSpan="4" GridPane.rowIndex="5" />
+      <Button fx:id="Recall" mnemonicParsing="false" onAction="#actionRecall" prefHeight="100.0" prefWidth="100.0" text="RC" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <Button fx:id="Clear" mnemonicParsing="false" onAction="#actionClear" prefHeight="100.0" prefWidth="100.0" text="Clear" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <Button fx:id="Enter" mnemonicParsing="false" onAction="#actionEnter" prefHeight="100.0" prefWidth="100.0" text="Enter" GridPane.columnIndex="4" GridPane.rowIndex="5" />
       <Group GridPane.columnIndex="1" />
 
 
