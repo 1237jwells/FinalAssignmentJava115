@@ -2,36 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RPNCalculator/sample/Controller.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RPNCalculator/sample/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RPNCalculator/sample/Override.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RPNCalculator/sample/theStack.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KILLMENOW2/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KILLMENOW2/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KILLMENOW2/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KILLMENOW2/KILLMENOW2.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KILLMENOW2/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RPNCalculator#100/src/sample/CSS.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RPNCalculator#100/src/sample/StackMachine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPNCalculator.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RPNCalculator/sample/sample.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/Override.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/theStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/theStackTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RPNCalculator2/src/com/company/Controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RPNCalculator2/src/com/company/theStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment##7" afterPath="$PROJECT_DIR$/../Assignment##7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment#12" afterPath="$PROJECT_DIR$/../Assignment#12" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment#7" afterPath="$PROJECT_DIR$/../Assignment#7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment#9" afterPath="$PROJECT_DIR$/../Assignment#9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment3" afterPath="$PROJECT_DIR$/../Assignment3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaInTheBox" afterPath="$PROJECT_DIR$/../JavaInTheBox" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JohnDIazDoublyLinkedList" afterPath="$PROJECT_DIR$/../JohnDIazDoublyLinkedList" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JohnDiazCalculator" afterPath="$PROJECT_DIR$/../JohnDiazCalculator" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KILLMENOW" afterPath="$PROJECT_DIR$/../KILLMENOW" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../RPMCGITHUB" afterPath="$PROJECT_DIR$/../RPMCGITHUB" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -688,7 +668,7 @@
       <workItem from="1502387867653" duration="30018000" />
       <workItem from="1502562652075" duration="8885000" />
       <workItem from="1502579454125" duration="10000" />
-      <workItem from="1502579806519" duration="40700000" />
+      <workItem from="1502579806519" duration="41090000" />
     </task>
     <servers />
   </component>
@@ -725,7 +705,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97722000" />
+    <option name="totallyTimeSpent" value="98112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
