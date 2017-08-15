@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ControllerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/storeRecallStack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment##7" afterPath="$PROJECT_DIR$/../Assignment##7" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment#12" afterPath="$PROJECT_DIR$/../Assignment#12" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment#7" afterPath="$PROJECT_DIR$/../Assignment#7" />
@@ -17,10 +20,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RPNCalculator/sample/theStack.class" afterPath="$PROJECT_DIR$/out/production/RPNCalculator/sample/theStack.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RPNCalculator/sample/theStackTest.class" afterPath="$PROJECT_DIR$/out/production/RPNCalculator/sample/theStackTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RPNCalculator/sample/sample.fxml" afterPath="$PROJECT_DIR$/out/production/RPNCalculator/sample/sample.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/sample.fxml" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/theStack.java" afterPath="$PROJECT_DIR$/src/sample/theStack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/theStackTest.java" afterPath="$PROJECT_DIR$/src/sample/theStackTest.java" />
     </list>
@@ -80,6 +81,7 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
@@ -88,14 +90,9 @@
       <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-              <folding>
-                <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-                <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-                <element signature="n#GridPane.margin#0;n#TextField#0;n#children#0;n#GridPane#0;n#!!top" expanded="false" />
-                <element signature="n#padding#0;n#GridPane#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="935">
+              <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
@@ -103,43 +100,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="177" column="32" lean-forward="false" selection-start-line="177" selection-start-column="32" selection-end-line="177" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#582#635#0" expanded="false" />
-                <element signature="method#Controller#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionEnter#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionPlus#0;class#Controller#0" expanded="false" />
-                <element signature="e#1893#1940#0" expanded="false" />
-                <element signature="method#actionMinus#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionMultiply#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionOne#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionTwo#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionThree#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionFour#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionFive#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionSix#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionSeven#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionNine#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionZero#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionStore#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionRecall#0;class#Controller#0" expanded="false" />
-                <element signature="method#actionPoint#0;class#Controller#0" expanded="false" />
-                <element signature="method#setStack#0;class#Controller#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="1139">
+              <caret line="77" column="25" lean-forward="false" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theStackTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/theStackTest.java">
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -148,28 +123,29 @@
       <file leaf-file-name="theStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/theStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="41" selection-end-column="5" />
-              <folding>
-                <element signature="method#peek#0;class#theStack#0" expanded="false" />
-                <element signature="method#push#0;class#theStack#0" expanded="false" />
-                <element signature="method#store#0;class#theStack#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="986">
+              <caret line="62" column="10" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="storeRecallStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/storeRecallStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#start#0;class#Main#0" expanded="false" />
-                <element signature="method#handle#0;class#Main#0" expanded="false" />
-                <element signature="method#main#0;class#Main#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,8 +156,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -221,11 +197,13 @@
         <option value="$PROJECT_DIR$/src/sample/StackExample.java" />
         <option value="$PROJECT_DIR$/src/sample/Stack.java" />
         <option value="$PROJECT_DIR$/src/sample/Stack2.java" />
-        <option value="$PROJECT_DIR$/src/sample/ControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/theStack.java" />
+        <option value="$PROJECT_DIR$/src/sample/storeRecallStack.java" />
         <option value="$PROJECT_DIR$/src/sample/theStackTest.java" />
+        <option value="$PROJECT_DIR$/src/sample/Node.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/ControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/sample/theStack.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
       </list>
     </option>
@@ -243,10 +221,11 @@
     </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="724" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -292,9 +271,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,6 +292,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="ToolWindowDebug.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -341,56 +321,18 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application">
+    <configuration default="false" name="theStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="RPNCalculator" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="PACKAGE_NAME" value="sample" />
+      <option name="MAIN_CLASS_NAME" value="sample.theStackTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -403,46 +345,118 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="theStackTest.pop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="RPNCalculator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sample" />
+      <option name="MAIN_CLASS_NAME" value="sample.theStackTest" />
+      <option name="METHOD_NAME" value="pop" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="theStackTest.clear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="RPNCalculator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sample" />
+      <option name="MAIN_CLASS_NAME" value="sample.theStackTest" />
+      <option name="METHOD_NAME" value="clear" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ControllerTest.actionPlus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="RPNCalculator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sample" />
+      <option name="MAIN_CLASS_NAME" value="sample.ControllerTest" />
+      <option name="METHOD_NAME" value="actionPlus" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="RPNCalculator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sample" />
+      <option name="MAIN_CLASS_NAME" value="sample.ControllerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
+      <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -499,6 +513,30 @@
       </Profilers>
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -513,6 +551,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -561,152 +620,85 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
     </configuration>
-    <configuration name="theStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="RPNCalculator" />
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sample" />
-      <option name="MAIN_CLASS_NAME" value="sample.theStackTest" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <envs />
-      <patterns />
+      <properties />
+      <listeners />
+      <method />
     </configuration>
-    <configuration name="theStackTest.peek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Main" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="RPNCalculator" />
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sample" />
-      <option name="MAIN_CLASS_NAME" value="sample.theStackTest" />
-      <option name="METHOD_NAME" value="peek" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="theStackTest.peek1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <module name="RPNCalculator" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sample" />
-      <option name="MAIN_CLASS_NAME" value="sample.theStackTest" />
-      <option name="METHOD_NAME" value="peek1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
       <envs />
-      <patterns />
-    </configuration>
-    <configuration name="theStackTest.pop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="RPNCalculator" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sample" />
-      <option name="MAIN_CLASS_NAME" value="sample.theStackTest" />
-      <option name="METHOD_NAME" value="pop" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="theStackTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="RPNCalculator" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sample" />
-      <option name="MAIN_CLASS_NAME" value="sample.theStackTest" />
-      <option name="METHOD_NAME" value="push" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.theStackTest.peek" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.theStackTest.peek1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.theStackTest.push" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.theStackTest.pop" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.theStackTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.theStackTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.theStackTest.pop" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.theStackTest.clear" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ControllerTest.actionPlus" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ControllerTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.theStackTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.theStackTest.pop" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.theStackTest.push" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.theStackTest.peek1" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.theStackTest.peek" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ControllerTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ControllerTest.actionPlus" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.theStackTest.clear" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.theStackTest.pop" />
       </list>
     </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -732,85 +724,86 @@
       <workItem from="1502562652075" duration="8885000" />
       <workItem from="1502579454125" duration="10000" />
       <workItem from="1502579806519" duration="52905000" />
-      <workItem from="1502741573007" duration="1588000" />
+      <workItem from="1502741573007" duration="19291000" />
+      <workItem from="1502771540070" duration="46000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="theStackTest - 2017.08.11 at 22h 54m 33s.xml">
+    <history-entry file="ControllerTest - 2017.08.14 at 23h 13m 28s.xml">
+      <configuration name="ControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest_actionPlus - 2017.08.14 at 22h 42m 04s.xml">
+      <configuration name="ControllerTest.actionPlus" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest_actionPlus - 2017.08.14 at 22h 42m 24s.xml">
+      <configuration name="ControllerTest.actionPlus" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="theStackTest - 2017.08.14 at 23h 13m 35s.xml">
       <configuration name="theStackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="theStackTest - 2017.08.14 at 14h 14m 47s.xml">
+    <history-entry file="theStackTest - 2017.08.14 at 23h 14m 30s.xml">
       <configuration name="theStackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="theStackTest - 2017.08.14 at 14h 35m 46s.xml">
-      <configuration name="theStackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="theStackTest_peek - 2017.08.13 at 20h 42m 01s.xml">
-      <configuration name="theStackTest.peek" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="theStackTest_peek - 2017.08.13 at 20h 42m 24s.xml">
-      <configuration name="theStackTest.peek" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="theStackTest_peek1 - 2017.08.14 at 13h 58m 35s.xml">
-      <configuration name="theStackTest.peek1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="theStackTest_pop - 2017.08.14 at 14h 08m 51s.xml">
+    <history-entry file="theStackTest_pop - 2017.08.14 at 20h 18m 39s.xml">
       <configuration name="theStackTest.pop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="theStackTest_push - 2017.08.11 at 22h 54m 16s.xml">
-      <configuration name="theStackTest.push" configurationId="JUnit" />
+    <history-entry file="theStackTest_pop - 2017.08.14 at 20h 19m 33s.xml">
+      <configuration name="theStackTest.pop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="theStackTest_push - 2017.08.14 at 13h 59m 57s.xml">
-      <configuration name="theStackTest.push" configurationId="JUnit" />
+    <history-entry file="theStackTest_pop - 2017.08.14 at 20h 19m 50s.xml">
+      <configuration name="theStackTest.pop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="theStackTest_push - 2017.08.14 at 14h 00m 36s.xml">
+    <history-entry file="theStackTest_pop - 2017.08.14 at 20h 22m 05s.xml">
+      <configuration name="theStackTest.pop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="theStackTest_push - 2017.08.14 at 20h 08m 12s.xml">
       <configuration name="theStackTest.push" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111515000" />
+    <option name="totallyTimeSpent" value="129264000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32669982" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32018927" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36908516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36601308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14599092" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07261725" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.39747635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39747635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Byte Code Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="93" y="100" width="591" height="535" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3248" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -831,22 +824,22 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39747635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.39747635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32669982" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32018927" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36908516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36601308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14599092" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07261725" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3248" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
@@ -859,7 +852,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -870,91 +863,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#635#0" expanded="false" />
-            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionEnter#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPlus#0;class#Controller#0" expanded="false" />
-            <element signature="e#1893#1940#0" expanded="false" />
-            <element signature="method#actionMinus#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionMultiply#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionOne#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionTwo#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionThree#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFour#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFive#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSix#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSeven#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionNine#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionZero#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionStore#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionRecall#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPoint#0;class#Controller#0" expanded="false" />
-            <element signature="method#setStack#0;class#Controller#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="method#handle#0;class#Main#0" expanded="false" />
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/StackExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding>
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#GridPane.margin#0;n#TextField#0;n#children#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#padding#0;n#GridPane#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#635#0" expanded="false" />
-            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionEnter#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPlus#0;class#Controller#0" expanded="false" />
-            <element signature="e#1893#1940#0" expanded="false" />
-            <element signature="method#actionMinus#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionMultiply#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionOne#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionTwo#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionThree#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFour#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFive#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSix#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSeven#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionNine#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionZero#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionStore#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionRecall#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPoint#0;class#Controller#0" expanded="false" />
-            <element signature="method#setStack#0;class#Controller#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -962,59 +873,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="method#handle#0;class#Main#0" expanded="false" />
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/StackExample.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding>
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#GridPane.margin#0;n#TextField#0;n#children#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#padding#0;n#GridPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#635#0" expanded="false" />
-            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionEnter#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPlus#0;class#Controller#0" expanded="false" />
-            <element signature="e#1893#1940#0" expanded="false" />
-            <element signature="method#actionMinus#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionMultiply#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionOne#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionTwo#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionThree#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFour#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFive#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSix#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSeven#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionNine#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionZero#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionStore#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionRecall#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPoint#0;class#Controller#0" expanded="false" />
-            <element signature="method#setStack#0;class#Controller#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,59 +901,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="method#handle#0;class#Main#0" expanded="false" />
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/StackExample.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#GridPane.margin#0;n#TextField#0;n#children#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#padding#0;n#GridPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
           <caret line="89" column="47" lean-forward="false" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#635#0" expanded="false" />
-            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionEnter#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPlus#0;class#Controller#0" expanded="false" />
-            <element signature="e#1893#1940#0" expanded="false" />
-            <element signature="method#actionMinus#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionMultiply#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionOne#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionTwo#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionThree#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFour#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFive#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSix#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSeven#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionNine#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionZero#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionStore#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionRecall#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPoint#0;class#Controller#0" expanded="false" />
-            <element signature="method#setStack#0;class#Controller#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,59 +929,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="method#handle#0;class#Main#0" expanded="false" />
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/StackExample.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#GridPane.margin#0;n#TextField#0;n#children#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#padding#0;n#GridPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
           <caret line="89" column="47" lean-forward="false" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#635#0" expanded="false" />
-            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionEnter#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPlus#0;class#Controller#0" expanded="false" />
-            <element signature="e#1893#1940#0" expanded="false" />
-            <element signature="method#actionMinus#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionMultiply#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionOne#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionTwo#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionThree#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFour#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFive#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSix#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSeven#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionNine#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionZero#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionStore#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionRecall#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPoint#0;class#Controller#0" expanded="false" />
-            <element signature="method#setStack#0;class#Controller#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,59 +957,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="method#handle#0;class#Main#0" expanded="false" />
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/StackExample.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="3" lean-forward="false" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
-          <folding>
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#GridPane.margin#0;n#TextField#0;n#children#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#padding#0;n#GridPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#635#0" expanded="false" />
-            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionEnter#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPlus#0;class#Controller#0" expanded="false" />
-            <element signature="e#1893#1940#0" expanded="false" />
-            <element signature="method#actionMinus#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionMultiply#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionOne#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionTwo#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionThree#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFour#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFive#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSix#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSeven#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionNine#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionZero#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionStore#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionRecall#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPoint#0;class#Controller#0" expanded="false" />
-            <element signature="method#setStack#0;class#Controller#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,12 +985,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="method#handle#0;class#Main#0" expanded="false" />
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,58 +994,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#635#0" expanded="false" />
-            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionEnter#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPlus#0;class#Controller#0" expanded="false" />
-            <element signature="e#1893#1940#0" expanded="false" />
-            <element signature="method#actionMinus#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionMultiply#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionOne#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionTwo#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionThree#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFour#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFive#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSix#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSeven#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionNine#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionZero#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionStore#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionRecall#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPoint#0;class#Controller#0" expanded="false" />
-            <element signature="method#setStack#0;class#Controller#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#GridPane.margin#0;n#TextField#0;n#children#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#padding#0;n#GridPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="method#handle#0;class#Main#0" expanded="false" />
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,58 +1022,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#635#0" expanded="false" />
-            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionEnter#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPlus#0;class#Controller#0" expanded="false" />
-            <element signature="e#1893#1940#0" expanded="false" />
-            <element signature="method#actionMinus#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionMultiply#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionOne#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionTwo#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionThree#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFour#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFive#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSix#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSeven#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionNine#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionZero#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionStore#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionRecall#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPoint#0;class#Controller#0" expanded="false" />
-            <element signature="method#setStack#0;class#Controller#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-          <folding>
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#GridPane.margin#0;n#TextField#0;n#children#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#padding#0;n#GridPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="method#handle#0;class#Main#0" expanded="false" />
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1335,58 +1049,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#635#0" expanded="false" />
-            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionEnter#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPlus#0;class#Controller#0" expanded="false" />
-            <element signature="e#1893#1940#0" expanded="false" />
-            <element signature="method#actionMinus#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionMultiply#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionOne#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionTwo#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionThree#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFour#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFive#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSix#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSeven#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionNine#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionZero#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionStore#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionRecall#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPoint#0;class#Controller#0" expanded="false" />
-            <element signature="method#setStack#0;class#Controller#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#GridPane.margin#0;n#TextField#0;n#children#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#padding#0;n#GridPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="method#handle#0;class#Main#0" expanded="false" />
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1394,58 +1076,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#635#0" expanded="false" />
-            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionEnter#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPlus#0;class#Controller#0" expanded="false" />
-            <element signature="e#1893#1940#0" expanded="false" />
-            <element signature="method#actionMinus#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionMultiply#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionOne#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionTwo#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionThree#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFour#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFive#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSix#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSeven#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionNine#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionZero#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionStore#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionRecall#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPoint#0;class#Controller#0" expanded="false" />
-            <element signature="method#setStack#0;class#Controller#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#GridPane.margin#0;n#TextField#0;n#children#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#padding#0;n#GridPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="method#handle#0;class#Main#0" expanded="false" />
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1453,46 +1103,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#635#0" expanded="false" />
-            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionEnter#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPlus#0;class#Controller#0" expanded="false" />
-            <element signature="e#1893#1940#0" expanded="false" />
-            <element signature="method#actionMinus#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionMultiply#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionOne#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionTwo#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionThree#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFour#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFive#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSix#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSeven#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionNine#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionZero#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionStore#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionRecall#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPoint#0;class#Controller#0" expanded="false" />
-            <element signature="method#setStack#0;class#Controller#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#GridPane.margin#0;n#TextField#0;n#children#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#padding#0;n#GridPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
@@ -1516,7 +1139,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ControllerTest.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Override.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1530,86 +1152,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="304" column="25" lean-forward="false" selection-start-line="304" selection-start-column="25" selection-end-line="304" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#GridPane.margin#0;n#TextField#0;n#children#0;n#GridPane#0;n#!!top" expanded="false" />
-            <element signature="n#padding#0;n#GridPane#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/theStack.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="method#peek#0;class#theStack#0" expanded="false" />
-            <element signature="method#push#0;class#theStack#0" expanded="false" />
-            <element signature="method#store#0;class#theStack#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="744" column="0" lean-forward="false" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/theStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="646">
+          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/theStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="62" column="10" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/storeRecallStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="77" column="25" lean-forward="false" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="method#handle#0;class#Main#0" expanded="false" />
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="177" column="32" lean-forward="false" selection-start-line="177" selection-start-column="32" selection-end-line="177" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#635#0" expanded="false" />
-            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionEnter#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPlus#0;class#Controller#0" expanded="false" />
-            <element signature="e#1893#1940#0" expanded="false" />
-            <element signature="method#actionMinus#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionMultiply#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionOne#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionTwo#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionThree#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFour#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionFive#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSix#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionSeven#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionNine#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionZero#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionStore#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionRecall#0;class#Controller#0" expanded="false" />
-            <element signature="method#actionPoint#0;class#Controller#0" expanded="false" />
-            <element signature="method#setStack#0;class#Controller#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,43 +1,69 @@
 package sample;
 import java.lang.*;
-import java.lang.Double;
-import java.util.Stack;
 //Push =  insert, Pop = delete, peek = read ahead without removing data
 public class theStack {
-
-    private Stack stack;
-
-    public theStack() { this.stack = new Stack<Double>(); }
-
+//Stack object
+    private Node head;
+    private Node tail;
+    private int size;
+    private theStack stack;
+//Create stack
+    public theStack(){
+        head = null;
+        tail = null;
+        size = 0;
+    }
+    //Stack Peek
     public double peek() {
-        return Double.parseDouble((String) stack.peek().toString());
-        //return peek(); //if you run this method, you will go into an infinite loop. yaaaay. hahaha instead of return peek();, you should put return stack.peek();
-    }
-
-    public Double push(String number) {
-        Double result = Double.parseDouble(number);
-        stack.push(result);
-        return result;// is result still number1? here so we basically just need Number1 haha. this push method is correct, from what I can see.
-    }
-
-    public int getSize() {
-        return stack.size();
-    }
-
-    public double pop() {
-        return Double.parseDouble((String)stack.pop().toString());
-    }
-
-    public void store(String number) {
-        stack.push(number);}
-
-    public void clear() {
-       if (stack.isEmpty()) {
-           System.out.println("HOW MANY TIMES");
-
-       } else{stack.clear();
-           System.out.println("how many times");
+        if(size == 0) {
+            return 0;
+        } else {
+            return tail.data;
         }
-
     }
-}
+
+// Push numbers into stack
+    public Double push(double data) {
+        Node node = new Node(data);
+        if (size == 0) {
+            tail = node;
+        } else {
+            tail.setNext(node);
+            node.previous = tail;
+            tail = node;
+        }
+        size++;
+        return tail.data;
+    }
+// return tail
+    public Node getTail(){
+        return tail;
+    }
+//size of stack
+    public int getSize(String s) {
+        return size;
+    }
+// Pop top item in stack
+    public double pop() {
+        double popping;
+        if(size == 0){
+            return 0;
+        } else if(size == 1){
+            popping = tail.data;
+            tail = null;
+        } else {
+            popping = tail.data;
+            tail = tail.previous;
+            tail.next.previous = null;
+            tail.next = null;
+        }
+        size--;
+        return popping;
+    }
+    //Clear stack
+    public void clear() {
+        tail = null;
+        head = null;
+        size = 0;
+        }
+    }
